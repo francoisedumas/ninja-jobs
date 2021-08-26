@@ -1,19 +1,6 @@
-# ninja-jobs
+# Simulating API
+to get a simulated api after creating your json file db.json
 
-## Project setup
-```
-npm install
-```
+npm install json-server
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+then run json-server --watch data/db.json
